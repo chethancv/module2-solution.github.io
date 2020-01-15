@@ -1,0 +1,102 @@
+body {
+    background-color: lightblue;
+}
+.heading {
+    text-align:center;
+     padding: 50px;
+}
+.content1 {
+    border: solid black;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+.content2 {
+    border: solid black;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+.content3 {
+    border: solid black;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+
+#title1 {
+    border: solid black;
+    background-color: brown;
+    position: relative;
+    margin-right: -8px;
+    margin-top: -7px;
+    text-align: center;
+    width: 200px;
+    float: right;
+}
+
+#title2 {
+    border: solid black;
+    background-color: lightcoral;
+    position: relative;
+    margin-right: -8px;
+    margin-top: -7px;
+    text-align: center;
+    float: right;
+    width: 200px;
+}
+
+#title3 {
+    border: solid black;
+    background-color: yellowgreen;
+    position: relative;
+    margin-right: -8px;
+    margin-top: -7px;
+    text-align: center;
+    float: right;
+    width: 200px;
+}
+@media(min-width: 992px){
+    .content1 {
+        width: 30%;
+        float: left;
+        margin-left: 35px;
+    }
+    .content2 {
+        width: 30%;
+        float: left;
+        margin-left: 5px;
+    }
+    .content3 {
+        width: 30%;
+        float: left;
+        margin-left: 5px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .content1 {
+        width: 45%;
+        float: left;
+        margin-left: 35px;
+    }
+    .content2 {
+        width: 45%;
+        float: left;
+        margin-left: 5px;
+    }
+    .content3 {
+        margin-top: 10px;
+        width: 92%;
+        float: left;
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .content2{
+        margin-top:10px !important;
+    }
+    .content3{
+        margin-top:10px !important;
+    }
+}
